@@ -108,6 +108,7 @@ class FavoritedItem extends StatelessWidget {
         // width: context.dynamicWidth(0.33) - 18,
         // sabit olarak verilen 18 değeri paddinglerden geliyor.
         // genişliğin 1/3'ü alındıktan sonra kenarlardan verilen padding çıkartıldı
+        // wrap widget'ı ile kullanılmak için yoruma alındı.
         decoration: BoxDecoration(border: Border.all(color: Colors.black54)),
         child: Stack(
           children: [
