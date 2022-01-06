@@ -35,6 +35,7 @@ class FacilitiesScreen extends StatelessWidget {
               children: [
                 userViewModel.userIsMember() && globals.favoritesList.isNotEmpty
                     ? Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Text('Favori Tesislerim',
                               style: TextStyle(
